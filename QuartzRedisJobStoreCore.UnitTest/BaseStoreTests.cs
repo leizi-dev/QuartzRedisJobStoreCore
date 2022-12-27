@@ -20,11 +20,11 @@ namespace QuartzRedisJobStoreCore.UnitTest
                 ["quartz.serializer.type"] = "json",
                 ["quartz.scheduler.instanceId"] = "AUTO",
                 ["quartz.jobStore.dbNum"] = "8",
-                ["quartz.jobStore.redisConfiguration"] = "127.0.0.1:6379,allowAdmin=true,syncTimeout=5000,password=Hsyq@123",
+                ["quartz.jobStore.redisConfiguration"] = "127.0.0.1:6379,allowAdmin=true,syncTimeout=5000,password=******",
                 //Start Redis Sentinel Model
                 //["quartz.jobStore.isSentinel"] = "true",
                 //["quartz.jobStore.sentinelServiceName"] = "cfmaster",
-                //["quartz.jobStore.password"] = "123456",
+                //["quartz.jobStore.password"] = "******",
                 //["quartz.jobStore.allowAdmin"] = "true",
                 //End Redis Sentinel Model
                 ["quartz.jobStore.clustered"] = "true",
